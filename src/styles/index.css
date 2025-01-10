@@ -1,12 +1,17 @@
-.counter{
-    text-align: center;
+.bigCounter{
+    display: flex;
+    justify-content: center;
     background-color: pink;
+    color: white;
 }
 
-.counter div { 
-    background-color: plum;
-    border-radius: 25px;
+.bigCounter div { 
+    line-height: 5px;
+    font-size: 120px;
+    padding: 10px;
+}
+
+.seconds {
     font-size: 100px;
-    color: white;
-    width: 120px;
+    padding: 10px;
 }
